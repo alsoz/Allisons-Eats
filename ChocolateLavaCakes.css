@@ -1,6 +1,10 @@
 body{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
+  background: url("./background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1{
   font-family: 'Raleway', sans-serif;
