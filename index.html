@@ -2,13 +2,15 @@
 <html>
 <head>
   <title>Allison's Eats</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href='../../CFG_2018/bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
 </head>
 
 <body>
+<div class="container-fluid">
 <div>
     <h1>Allison's Eats</h1>
     <p id="open_statement">
@@ -22,103 +24,117 @@
 
 <div class="gen_section" id="featured">
   <h2>Featured Recipe's</h2>
-  <table class="gen_table" id="featured_table">
-    <tbody>
-      <tr>
-        <td>
-          <a href="URL"><img src="URL"></a>
-          <p>Aliyahs Recipe<br />
-          <small>Add text here.</small></p>
-        </td>
-        <td>
-          <a href="URL"><img src="URL"></a>
-          <p>Jess' Recipe<br />
-          <small>Add text here.</small></p>
-        </td>
-        <td>
-          <a href="./ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="./ChocolateLavaCakes/CLC.jpg"></a>
-          <p>Chocolate Lava Cake's<br />
-          <small>This delicious recipe makes 4 or 6 molten chocolate lava cakes in minutes.</small></p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="URL"><img src="URL"></a>
+      <p class="text-center">Aliyahs Recipe<br />
+      <small>Add text here.</small></p>
+    </div>
+    <div class="col-xs-4">
+      <a href="URL"><img src="URL"></a>
+      <p class="text-center">Jess' Recipe<br />
+      <small>Add text here.</small></p>
+    </div>
+    <div class="col-xs-4">
+      <a href="./ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="./ChocolateLavaCakes/CLC.jpg"></a>
+      <p class="text-center">Chocolate Lava Cake's<br />
+      <small>This delicious recipe makes 4 or 6 molten chocolate lava cakes in minutes.</small></p>
+    </div>
+  </div>
 </div>
 <br />
 
 <div class="gen_section" id="catalogue">
   <h2>Recipe Catalogue</h2>
   <p>Below are some of our favorite recipe's.</p>
+
   <h3 class="breakfast">Breakfast</h3>
-    <table class="gen_table">
-      <tbody>
-        <tr>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+  </div>
+
   <h3 class="lunch">Lunch</h3>
-    <table class="gen_table">
-      <tbody>
-        <tr>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-        </tr>
-      </tbody>
-    </table>
-  <h3 class="dinner">Dinner</h3>
-    <table class="gen_table">
-      <tbody>
-        <tr>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+  </div>
+
+  <h3 class="Dinner">Dinner</h3>
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+  </div>
   <h3 class="snacks_apps">Snacks & Appetizers</h3>
-    <table class="gen_table">
-      <tbody>
-        <tr>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-          <td><a href="URL"><img src="URL" /></a></td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+    <div class="col-xs-3">
+      <a href="URL"><img src="URL" /></a>
+    </div>
+  </div>
 </div>
 <br />
 
 <div class="gen_section" id="techniques">
   <h2>Cooking Techniques</h2>
-  <table class="gen_table" id="techniques_table">
-    <tbody>
-      <tr>
-        <td>
-          <a href="URL"><img src="URL" /></a>
-          <p>Technique 1<br />
-          <small>Text...</small></p>
-        </td>
-        <td>
-          <a href="URL"><img src="URL" /></a>
-          <p>Technique 2<br />
-          <small>Text...</small></p>
-        </td>
-        <td>
-          <a href="URL"><img src="URL" /></a>
-          <p>Technique 3<br />
-          <small>Text 3...</small></p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="row">
+    <div class="col-xs-4">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Technique 1<br />
+      <small>Text...</small></p>
+    </div>
+    <div class="col-xs-4">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Technique 2<br />
+      <small>Text...</small></p>
+    </div>
+    <div class="col-xs-4">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Technique 3<br />
+      <small>Text 3...</small></p>
+    </div>
+  </div>
+</div>
+<br />
+
 </div>
 </body>
 
