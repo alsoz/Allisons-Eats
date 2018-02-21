@@ -1,3 +1,4 @@
+
 h1{
   font-family: 'Lily Script One', cursive;
   text-align: center;
@@ -6,11 +7,13 @@ h1{
 }
 body{
   font-family: 'Quicksand', sans-serif;
-  margin: 0 30px 0 30px;
   background-image: url("./background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.body{
+  margin: 0 30px 0 30px;
 }
 p#open_statement{
   margin: 0 80px 0 80px;
@@ -38,21 +41,99 @@ h3{
 div.gen_section{
   background-color: rgba(255, 255, 255, .7);
 }
-table.gen_table{
-  table-layout: fixed;
+.nav{
   width: 100%;
-  border-spacing: 5px;
+  padding: 0;
+  margin: 0;
+}
+.nav ul {
+  list-style: none;
+  background-color: #444;
   text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 12px;
+  float: left;
+  position: relative;
 }
-table.gen_table td{
-  border: 1px solid black;
-  background-color: rgba(255, 255, 255, .5);
-  padding: 10px;
+
+.nav li {
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  float: center;
 }
-@media (max-width: 500px){
-  h1{
-  font-size: 50px;
-  margin-top: 20px;
-  line-height: 40px;
+.nav ul ul {
+  width: 200px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  border-bottom: none;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: red;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.nav li li {
+  font-size: 10px;
+  width: auto;
+  text-align: left;
+  padding-left: 5px;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
   }
 }
