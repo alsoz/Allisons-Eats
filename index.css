@@ -41,6 +41,7 @@ h3{
 div.gen_section{
   background-color: rgba(255, 255, 255, .7);
 }
+/* Navbar editing */
 .nav{
   width: 100%;
   padding: 0;
@@ -92,7 +93,7 @@ div.gen_section{
   text-align: left;
   padding-left: 5px;
 }
-
+/* Social media buttons */
 .social a {
   color: #fff;
   text-decoration: none;
