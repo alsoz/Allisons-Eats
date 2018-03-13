@@ -43,6 +43,13 @@ h3{
   font-size: 24px;
   font-weight: bold;
 }
+h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+p .caption2{
+  font-size: 14px;
+}
 div.gen_section{
   background-color: rgba(255, 255, 255, .7);
 }
@@ -146,3 +153,11 @@ div.gen_section{
 
 #myBtn:hover {
   background-color: #D3D3D3;
+}
+
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
