@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Us - Allison's Eats</title>
+  <title>Desserts and Sweets - Allison's Eats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="aboutus.css">
+  <link rel="stylesheet" type="text/css" href="dessert.css">
   <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script
+  src="https://code.jquery-3.3.1.js"
+  integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -24,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./index.html">Allison's Eats</a>
+      <a class="navbar-brand" href="../index.html">Allison's Eats</a>
     </div> <!-- /.navbar-header -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -32,13 +36,13 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
           aria-haspopup="true" aria-expanded="false">Recipe Catalogue<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="./breakfast/breakfast.html">Breakfast</a></li>
+              <li><a href="../breakfast/breakfast.html">Breakfast</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="./light_meals/light_meals.html">Light Meals and Appetizers</a></li>
+              <li><a href="../light_meals/light_meals.html">Light Meals and Appetizers</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="./dinner/dinner.html">Dinners and Mains</a></li>
+              <li><a href="../dinner/dinner.html">Dinners and Mains</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="./dessert/dessert.html">Snacks & Appetizers</a></li>
+              <li class="active"><a href="dessert.html">Desserts and Sweets</a></li>
             </ul> <!-- /.dropdown-menu -->
         </li> <!-- /.li dropdown -->
         <li><a href="#">Techniques</a></li>
@@ -49,46 +53,63 @@
         </div>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="aboutus.html">About Us<span class="sr-only">(current)</span></a></li>
+        <li><a href="../aboutus.html">About Us<span class="sr-only"></span></a></li>
         <li><a href="#">Contact Us</a></li>
       </ul> <!-- /.ul navbar-right -->
     </div> <!-- /.navbar-collapse -->
   </div> <!-- /.container-fluid -->
 </nav>
 
-<h1>About Us</h1>
-
 <div class="container-fluid">
+
+<h1>Desserts and Sweets</h1>
+
+<div class="section">
   <div class="row">
-    <div class="panel-group">
-      <div class="col-md-4 col-xs-12">
-        <div class="panel panel-default">
-          <div><img src=#></div>
-          <div class="panel-heading">Aliyah</div>
-          <div class="panel-body">Panel Content</div>
-          <div class="panel-footer">Panel Footer</div>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="panel panel-default">
-          <div><img src=#></div>
-          <div class="panel-heading">Jess</div>
-          <div class="panel-body">Panel Content</div>
-          <div class="panel-footer">Panel Footer</div>
-        </div>
-      </div>
-      <div class="col-md-4 col-xs-12">
-        <div class="panel panel-default">
-          <div><img src=#></div>
-          <div class="panel-heading">Allison</div>
-          <div class="panel-body">Panel Content</div>
-          <div class="panel-footer">Panel Footer</div>
-        </div>
-      </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Worlds Best Chocolate Chip Cookies<br /></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Italian Pear and Almond Cake<br />
+      <small>gluten-free</small></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">White Chocolate Raspberry Cheesecake<br />
+      <small>optional gluten-free</small></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Dark Chocolate and Almond Tart<br />
+      <small>dairy and gluten-free</small></p>
     </div>
   </div>
 </div>
-<br>
+
+<div class="section">
+  <div class="row">
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Vanilla Creme Brulee<br /></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="../ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="../ChocolateLavaCakes/CLC.jpg" /></a>
+      <p class="text-center">Chocolate Lava Cakes<br /></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Pecan Pie<br /></p>
+    </div>
+    <div class="col-md-3 col-xs-6">
+      <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Banana Cake<br /></p>
+    </div>
+  </div>
+</div>
+<br />
+</div>
 
 <nav class="social">
   <ul>
