@@ -12,6 +12,10 @@ font-size: 20px;
 p{
   padding: 10px;
 }
+img {
+  border: 5px solid black;
+  border-radius: 10px;
+}
 h2#instructions {
   text-align: center;
 }

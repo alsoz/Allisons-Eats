@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Allison's Eats</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,11 +73,50 @@
       Bon appetit!</p>
 </div>
 
+<div class="container">
+  <h2>Specials of the Week</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="./Healthy MacnCheese/HealthyMacnCheese.html"><img src="./Healthy MacnCheese/macncheese.jpg" alt="Healthy Mac'n'Cheese" style="width:300px;height:400px;">
+      </div>
+
+      <div class="item">
+      <a href="./ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="./ChocolateLavaCakes/CLC.jpg" alt="Chocolate Lava Cakes" style="width:300px;height:400px;"></a>
+      </div>
+
+      <div class="item">
+        <a href="./stew.html"><img src="http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/food/2014/11/28/WomansDayBR106486/classic-beef-stew-with-dumplings.jpg" alt="Winter Warmer Stew with Dumplings" style="width:400px; height:400px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+</br>
+
+<!-- This is an older design that is replaced by the carosel
 <div class="gen_section" id="featured">
   <h2>Featured Recipe's</h2>
   <div class="row">
     <div class="col-md-4 col-xs-12">
-      <a href="URL"><img src="URL"></a>
+      <a href="./Stew"><img src="http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/food/2014/11/28/WomansDayBR106486/classic-beef-stew-with-dumplings.jpg" alt="Winter Warmer Stew with Dumplings"></a>
       <p class="text-center">Aliyahs Recipe<br />
       <small>Add text here.</small></p>
     </div>
@@ -91,9 +131,10 @@
       <small>This delicious recipe makes 4 or 6 molten chocolate lava cakes in minutes.</small></p>
     </div>
   </div>
-</div>
+<!</div>
 <br />
-
+-->
+<!-- This has also been replaced by the carosel so that we have a feature page, rather than all the info on the front page.
 <div class="gen_section" id="catalogue">
   <h2>Recipe Catalogue</h2>
   <p>Below are some of our favorite recipe's.</p>
@@ -209,7 +250,7 @@
 </div>
 <br />
 </div>
-
+-->
 <nav class="social">
   <ul>
       <li><a href="https://twitter.com/">Twitter <i class="fa fa-twitter"></i></a></li>
