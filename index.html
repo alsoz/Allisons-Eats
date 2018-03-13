@@ -3,18 +3,72 @@
 <head>
   <title>Allison's Eats</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
   <link href='./bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+=======
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+>>>>>>> Laptop_not_connecting
   <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script
+<<<<<<< HEAD
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+=======
+  src="https://code.jquery-3.3.1.js"
+  integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+>>>>>>> Laptop_not_connecting
   crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Allison's Eats</a>
+    </div> <!-- /.navbar-header -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+          aria-haspopup="true" aria-expanded="false">Recipe Catalogue<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./breakfast/breakfast.html">Breakfast</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="./light_meals/light_meals.html">Light Meals and Appetizers</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="./dinner/dinner.html">Dinners and Mains</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="./dessert/dessert.html">Desserts and Sweets</a></li>
+            </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.li dropdown -->
+        <li><a href="#">Techniques</a></li>
+      </ul> <!-- /.ul nav -->
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./aboutus.html">About Us<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul> <!-- /.ul navbar-right -->
+    </div> <!-- /.navbar-collapse -->
+  </div> <!-- /.container-fluid -->
+</nav>
+
 <div class="container-fluid">
 
 <nav class="navbar navbar-default">
@@ -87,17 +141,17 @@
 <div class="gen_section" id="featured">
   <h2>Featured Recipe's</h2>
   <div class="row">
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="URL"><img src="URL"></a>
       <p class="text-center">Aliyahs Recipe<br />
       <small>Add text here.</small></p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="./Healthy MacnCheese/HealthyMacnCheese.html"><img src="./Healthy MacnCheese/macncheese.jpg"></a>
       <p class="text-center">Healthy Mac N Cheese<br />
       <small>Add text here.</small></p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="./ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="./ChocolateLavaCakes/CLC.jpg"></a>
       <p class="text-center">Chocolate Lava Cake's<br />
       <small>This delicious recipe makes 4 or 6 molten chocolate lava cakes in minutes.</small></p>
@@ -112,64 +166,88 @@
 
   <h3 class="breakfast">Breakfast</h3>
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Cinnamon Rolls<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">French Crepes<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Blueberry Pancakes<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Eggs Benedict<br /></p>
     </div>
   </div>
 
-  <h3 class="lunch">Lunch</h3>
+  <h3 class="snacks_apps">Appetizers and Light Meals</h3>
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Stuffed Mushrooms<br />
+      <small>vegetarian</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Asian Ramen Salad<br />
+      <small>vegetarian optional</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Lemon Garlic Orzo with Veggies<br />
+      <small>vegetarian</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Teriyaki Chicken (or Beef)<br />
+      <small>gluten-free</small></p>
     </div>
   </div>
 
   <h3 class="Dinner">Dinner</h3>
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Jerusalem Artichoke and Potato Gratin<br />
+      <small>vegan and gluten-free</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Chicken Pie<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Pancetta and Brussel Sprout Pasta<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Beef Lasagna<br /></p>
     </div>
   </div>
-  <h3 class="snacks_apps">Snacks & Appetizers</h3>
+  <h3 class="dessert">Desserts and Sweets</h3>
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Worlds Best Chocolate Chip Cookies<br /></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Italian Pear and Almond Cake<br />
+      <small>gluten-free</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">White Chocolate Raspberry Cheesecake<br />
+      <small>optional gluten-free</small></p>
     </div>
-    <div class="col-xs-3">
+    <div class="col-md-3 col-xs-6">
       <a href="URL"><img src="URL" /></a>
+      <p class="text-center">Dark Chocolate and Almond Tart<br />
+      <small>dairy and gluten-free</small></p>
     </div>
   </div>
 </div>
@@ -178,17 +256,17 @@
 <div class="gen_section" id="techniques">
   <h2>Cooking Techniques</h2>
   <div class="row">
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="URL"><img src="URL" /></a>
       <p class="text-center">Technique 1<br />
       <small>Text...</small></p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="URL"><img src="URL" /></a>
       <p class="text-center">Technique 2<br />
       <small>Text...</small></p>
     </div>
-    <div class="col-xs-4">
+    <div class="col-md-4 col-xs-12">
       <a href="URL"><img src="URL" /></a>
       <p class="text-center">Technique 3<br />
       <small>Text 3...</small></p>
@@ -196,7 +274,6 @@
   </div>
 </div>
 <br />
-
 </div>
 
 <nav class="social">
@@ -208,7 +285,10 @@
   </ul>
 </nav>
 
+<<<<<<< HEAD
 </div>
+=======
+>>>>>>> Laptop_not_connecting
 </body>
 
 </html>

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+=======
+.navbar-brand, .panel-heading {
+  font-family: 'Lily Script One', cursive;
+}
+>>>>>>> Laptop_not_connecting
 
 h1{
   font-family: 'Lily Script One', cursive;
   text-align: center;
   font-size: 75px;
   margin: 60px 0 0 0;
+}
+.container-fluid {
+  margin: 0 30px 0 60px;
 }
 body{
   font-family: 'Quicksand', sans-serif;
@@ -41,6 +50,7 @@ h3{
 div.gen_section{
   background-color: rgba(255, 255, 255, .7);
 }
+<<<<<<< HEAD
 /* Navbar editing */
 .nav{
   width: 100%;
@@ -93,6 +103,9 @@ div.gen_section{
   text-align: left;
   padding-left: 5px;
 }
+=======
+
+>>>>>>> Laptop_not_connecting
 /* Social media buttons */
 .social a {
   color: #fff;
@@ -101,6 +114,7 @@ div.gen_section{
 .social .me {
   width: 400px;
   margin: 90px auto;
+<<<<<<< HEAD
 }
 .social {
   position: fixed;
@@ -155,6 +169,62 @@ div.gen_section{
   -o-transition: all 1s;
   transition: all 1s;
 }
+=======
+}
+.social {
+  position: fixed;
+  top: 100px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-250px, 0);
+  -moz-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  -o-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 15px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(100px, 0);
+  -moz-transform: translate(100px, 0);
+  -ms-transform: translate(100px, 0);
+  -o-transform: translate(100px, 0);
+  transform: translate(100px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: red;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+>>>>>>> Laptop_not_connecting
 .social ul li i {
   margin-left: 20px;
   color: #000;
@@ -174,6 +244,7 @@ div.gen_section{
   transform: rotate(0deg);
 }
 
+<<<<<<< HEAD
 /*******************************************
    Style menu for larger screens
 
@@ -216,5 +287,12 @@ div.gen_section{
 
   .nav li ul li {
     display: block;
+=======
+@media (max-width: 500px){
+  h1{
+  font-size: 50px;
+  margin-top: 20px;
+  line-height: 40px;
+>>>>>>> Laptop_not_connecting
   }
 }
