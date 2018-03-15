@@ -42,7 +42,7 @@ h3{
   table-layout: fixed;
   font-size: 14px;
 }
-#ingredients ul,ol{
+#ingredients,#notes ul,ol{
   list-style-position: inside;
   text-align: left;
   width: 50%;
