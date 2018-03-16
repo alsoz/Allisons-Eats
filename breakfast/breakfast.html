@@ -14,6 +14,7 @@
   src="https://code.jquery-3.3.1.js"
   integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <script src="breakfast.js"></script>
 </head>
 
 <body>
@@ -64,25 +65,46 @@
 
 <h1>Breakfast</h1>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./cinnamonbun.jpg" /></a>
-      <p class="text-center">Cinnamon Rolls<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./frenchcrepes.jpg" /></a>
-      <p class="text-center">French Crepes<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./blueberrypancakes.jpg" /></a>
-      <p class="text-center">Blueberry Pancakes<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./eggsbenedict.jpeg" /></a>
-      <p class="text-center">Eggs Benedict<br /></p>
-    </div>
-  </div>
+<div id="columns">
+  <figure>
+    <a href="URL"><img src="./cinnamonbun.jpg" /></a>
+    <figcaption>Cinnamon Rolls</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./frenchcrepes.jpg" /></a>
+    <figcaption>French Crepes</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./blueberrypancakes.jpg" /></a>
+    <figcaption>American Blueberry Pancakes</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./eggsbenedict.jpeg" /></a>
+    <figcaption>Eggs Benedict</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="#" /></a>
+    <figcaption>Recipe 5</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="#" /></a>
+    <figcaption>Recipe 6</figcaption>
+  </figure>
+
+  <figure>
+    <a href="#"><img src="#" /></a>
+    <figcaption>Recipe 7</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="#" /></a>
+    <figcaption>Recipe 8</figcaption>
+  </figure>
 </div>
 
 </div>
@@ -95,6 +117,8 @@
       <li><a href="http://pinterest.com/">Pinterest <i class="fa fa-pinterest"></i></a></li>
   </ul>
 </nav>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
 
 </body>
 

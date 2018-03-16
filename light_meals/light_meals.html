@@ -14,6 +14,7 @@
   src="https://code.jquery-3.3.1.js"
   integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <script src="light_meals.js"></script>
 </head>
 
 <body>
@@ -64,32 +65,38 @@
 
 <h1>Light Meals and Appetizers</h1>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./stuffedmushrooms.jpeg" /></a>
-      <p class="text-center">Stuffed Mushrooms<br />
-      <small>vegetarian</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./asiansalad.jpg" /></a>
-      <p class="text-center">Asian Ramen Salad<br />
-      <small>vegetarian optional</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./lemonorzo.jpg" /></a>
-      <p class="text-center">Lemon Garlic Orzo with Veggies<br />
-      <small>vegetarian</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="./teriyaki.jpg" /></a>
-      <p class="text-center">Teriyaki Chicken (or Beef)<br />
-      <small>gluten-free</small></p>
-    </div>
-  </div>
+<div id="columns">
+  <figure>
+    <a href="URL"><img src="./asiansalad.jpg" /></a>
+    <figcaption>Asian Ramen Salad</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./lemonorzo.jpg" /></a>
+    <figcaption>Lemon Garlic Orzo with Vegetables</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./teriyaki.jpg" /></a>
+    <figcaption>Teriyaki Chicken (Or Beef)</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./stuffedmushrooms.jpeg" /></a>
+    <figcaption class="recipe_title">Stuffed Mushrooms</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="#" /></a>
+    <figcaption class="recipe_title">Recipe 5</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="#" /></a>
+    <figcaption class="recipe_title">Recipe 6</figcaption>
+  </figure>
 </div>
 
-<br />
 </div>
 
 <nav class="social">
@@ -100,6 +107,8 @@
       <li><a href="http://pinterest.com/">Pinterest <i class="fa fa-pinterest"></i></a></li>
   </ul>
 </nav>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
 
 </body>
 

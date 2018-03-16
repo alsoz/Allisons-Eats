@@ -14,6 +14,7 @@
   src="https://code.jquery-3.3.1.js"
   integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <script src="dinner.js"></script>
 </head>
 
 <body>
@@ -64,51 +65,48 @@
 
 <h1>Dinners and Mains</h1>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Jerusalem Artichoke and Potato Gratin<br />
-      <small>vegan and gluten-free</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Chicken Pie<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Pancetta and Brussel Sprout Pasta<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Beef Lasagna<br /></p>
-    </div>
-  </div>
-</div>
+<div id="columns">
+  <figure>
+    <a href="URL"><img src="./artichokegratin.JPG" /></a>
+    <figcaption class="recipe_title">Jerusalem Artichoke and Potato Gratin</figcaption>
+  </figure>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">White Chicken Enchiladas<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Spaghetti Bolognese<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="../Healthy MacnCheese/HealthyMacnCheese.html"><img src="../Healthy MacnCheese/macncheese.jpg" /></a>
-      <p class="text-center">Healthy Mac 'n' Cheese<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Orcchiette with Sausage and Broccoli<br /></p>
-    </div>
-  </div>
-</div>
-<br />
-</div>
+  <figure>
+    <a href="URL"><img src="./chickenpie.jpg" /></a>
+    <figcaption>Chicken Pie</figcaption>
+  </figure>
 
+  <figure>
+    <a href="URL"><img src="./pancettabrusselsprout.jpg" /></a>
+    <figcaption>Pancetta and Brussel Sprout Pasta</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./lasagna.jpg" /></a>
+    <figcaption>World's Best Lasagna</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./enchiladas.jpg" /></a>
+    <figcaption>White Chicken Enchiladas</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./spaghettibolognese.jpg" /></a>
+    <figcaption>Spaghetti Bolognese</figcaption>
+  </figure>
+
+  <figure>
+    <a href="../Healthy MacnCheese/HealthyMacnCheese.html"><img src="../Healthy MacnCheese/macncheese.jpg" /></a>
+    <figcaption>Healthy Mac 'n' Cheese</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./orecchiette.jpg" /></a>
+    <figcaption>Orcchiette with Sausage and Broccoli</figcaption>
+  </figure>
+</div>
+</div>
 <nav class="social">
   <ul>
       <li><a href="https://twitter.com/">Twitter <i class="fa fa-twitter"></i></a></li>
@@ -117,6 +115,8 @@
       <li><a href="http://pinterest.com/">Pinterest <i class="fa fa-pinterest"></i></a></li>
   </ul>
 </nav>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
 
 </body>
 
