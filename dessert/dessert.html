@@ -14,6 +14,7 @@
   src="https://code.jquery-3.3.1.js"
   integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <script src="dessert.js"></script>
 </head>
 
 <body>
@@ -64,51 +65,48 @@
 
 <h1>Desserts and Sweets</h1>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Worlds Best Chocolate Chip Cookies<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Italian Pear and Almond Cake<br />
-      <small>gluten-free</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">White Chocolate Raspberry Cheesecake<br />
-      <small>optional gluten-free</small></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Dark Chocolate and Almond Tart<br />
-      <small>dairy and gluten-free</small></p>
-    </div>
-  </div>
+<div id="columns">
+  <figure>
+    <a href="URL"><img src="./cookies.jpg" /></a>
+    <figcaption>Worlds Best Chocolate Chip Cookies</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./pearalmondcake.jpg" /></a>
+    <figcaption>Italian Pear and Almond Cake</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./cheesecake.jpg" /></a>
+    <figcaption>White Chocolate Raspberry Cheesecake</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./chocolatetart.jpg" /></a>
+    <figcaption>Dark Chocolate and Almond Tart</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./cremebrulee.jpg" /></a>
+    <figcaption>Vanilla Creme Brulee</figcaption>
+  </figure>
+
+  <figure>
+    <a href="../ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="../ChocolateLavaCakes/CLC.jpg" /></a>
+    <figcaption>Chocolate Lava Cakes</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./pecanpie.jpg" /></a>
+    <figcaption>Pecan Pie</figcaption>
+  </figure>
+
+  <figure>
+    <a href="URL"><img src="./bananacake.jpg" /></a>
+    <figcaption>Banana Cake</figcaption>
+  </figure>
 </div>
 
-<div class="section">
-  <div class="row">
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Vanilla Creme Brulee<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="../ChocolateLavaCakes/ChocolateLavaCakes.html"><img src="../ChocolateLavaCakes/CLC.jpg" /></a>
-      <p class="text-center">Chocolate Lava Cakes<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Pecan Pie<br /></p>
-    </div>
-    <div class="col-md-3 col-xs-6">
-      <a href="URL"><img src="URL" /></a>
-      <p class="text-center">Banana Cake<br /></p>
-    </div>
-  </div>
-</div>
-<br />
 </div>
 
 <nav class="social">
@@ -119,6 +117,8 @@
       <li><a href="http://pinterest.com/">Pinterest <i class="fa fa-pinterest"></i></a></li>
   </ul>
 </nav>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
 
 </body>
 
