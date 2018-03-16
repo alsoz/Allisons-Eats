@@ -21,33 +21,30 @@ h1{
 img{
   border-radius: 10%;
   max-width: 100%;
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 10px;
 }
 h2{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  text-align: center;
 }
 h3{
-  width: 45%;
-  margin-left: 27.5%;
-  margin-right: 27.5%;
   text-align: left;
 }
 #info_table{
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
   table-layout: fixed;
   font-size: 14px;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #ingredients,#notes ul,ol{
   list-style-position: inside;
   text-align: left;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+}
+
+.col-md-6,.col-xs-12{
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Social media buttons */
