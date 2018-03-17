@@ -11,6 +11,10 @@ header{
   margin-bottom: 20px;
 }
 
+.col-md-6,.col-xs-12{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 #header {
      display: inline;
      padding: 0px 40px 0px 40px;
@@ -65,7 +69,6 @@ img{
   text-align: left;
   font-size: 22px;
   margin: 0;
-  width: 60%;
 }
 
 
