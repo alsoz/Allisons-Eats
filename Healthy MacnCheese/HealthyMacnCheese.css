@@ -39,6 +39,13 @@ h2{
   margin: 25px;
 }
 
+h3 {
+  font-size: 30px;
+  color: black;
+  font-family: 'Nanum Pen Script', cursive;
+  width: 70%;
+}
+
 p{
   font-family: 'PT Sans', sans-serif;
   text-align: center;
@@ -56,14 +63,14 @@ img{
   font-family: 'PT Sans', sans-serif;
   display: inline-block;
   text-align: left;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
+  width: 60%;
 }
+
 
 .list {
   text-align: center;
-  display: inline-block;
-  width: 60%;
 }
 
 /* Social media buttons */
