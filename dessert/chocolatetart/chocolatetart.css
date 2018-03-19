@@ -4,7 +4,7 @@
 body{
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  background: url("../background4.jpeg");
+  background: url("../../background4.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,9 +18,9 @@ h1{
   font-size: 45px;
   padding: 15px 15px 0px 15px;
 }
-img{
+#header img{
   border-radius: 10%;
-  max-width: 100%;
+  max-width: 60%;
   border-radius: 10px;
 }
 h2{
@@ -43,7 +43,7 @@ h3{
 }
 
 .col-md-6,.col-xs-12{
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Social media buttons */
@@ -149,5 +149,14 @@ h3{
   }
   h1 {
     font-size: 5rem;
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+  h4 {
+    
   }
 }
