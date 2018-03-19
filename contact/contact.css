@@ -46,8 +46,8 @@ input[type=submit]:hover {
   text-decoration: none;
 }
 .social .me {
-  width: 400px;
-  margin: 90px auto;
+  width: 100px;
+  margin: 50px auto;
 }
 .social {
   position: fixed;
@@ -65,9 +65,9 @@ input[type=submit]:hover {
   display: block;
   margin: 5px;
   background: rgba(0, 0, 0, 0.36);
-  width: 300px;
+  width: 315px;
   text-align: right;
-  padding: 15px;
+  padding: 5px;
   -webkit-border-radius: 0 30px 30px 0;
   -moz-border-radius: 0 30px 30px 0;
   border-radius: 0 30px 30px 0;
@@ -88,9 +88,8 @@ input[type=submit]:hover {
 .social ul li:hover a {
   color: #000;
 }
-.social ul li:hover i {
+.social ul li:hover img {
   color: #fff;
-  background: red;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
@@ -102,24 +101,21 @@ input[type=submit]:hover {
   -o-transition: all 1s;
   transition: all 1s;
 }
-.social ul li i {
-  margin-left: 20px;
-  color: #000;
-  background: white;
-  padding: 10px;
+.social ul li img {
+  margin-left: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   font-size: 20px;
-  background: #ffffff;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+
 #myBtn {
   display: none;
   position: fixed;
