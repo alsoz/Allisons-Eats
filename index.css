@@ -58,6 +58,10 @@ div.gen_section{
 .social a {
   color: #fff;
   text-decoration: none;
+  width: 20px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }
 .social .me {
   width: 400px;
