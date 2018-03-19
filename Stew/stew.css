@@ -74,3 +74,28 @@ h2#ingredients{
 
 #myBtn:hover {
   background-color: #D3D3D3;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+  body {
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+  }
+}

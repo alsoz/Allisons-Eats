@@ -146,3 +146,21 @@ h3{
 
 #myBtn:hover {
   background-color: #D3D3D3;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav.social {
+    display: none;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}

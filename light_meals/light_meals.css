@@ -170,3 +170,12 @@ div#columns:hover figure:not(:hover) {
 #myBtn:hover {
   background-color: #D3D3D3;
 }
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav.social {
+    display: none;
+  }
+  h1 {
+    font-size: 5rem;
+}
