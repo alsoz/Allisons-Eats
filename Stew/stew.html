@@ -2,6 +2,31 @@
 <html>
 <head>
  <title>stew</title>
+ <style>
+ .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -77,18 +102,21 @@
  </ul>
  <h2 id="ingredients">Ingredients</h2>
   <h3 id="stew">For the Stew</h3>
-  <ul>
-   <li class="stewbits">4 large carrots, peeled and roughly chopped</li>
-   <li class="stewbits">3 large potatoes, peeled and cut into medium chunks</li>
-   <li class="stewbits">2 leeks, roughly sliced</li>
-   <li class="stewbits">900g stewing beef, cut into large chunks <em>(leave out if vegetarian/vegan)</em></li>
-   <li class="stewbits">1 large onion, roughly chopped</li>
-   <li class="stewbits">2 garlic cloves, minced</li>
-   <li class="stewbits">3 tbsp Vegetable oil</li>
-   <li class="stewbits">3 tsps Dried mixed herbs</li>
-   <li class="stewbits">4 stock cubes, dissolved in 1 litre of water <em>(use 1.5 litre if adding dumplings)</em></li>
-   <li class="stewbits">Pinch of salt</li>
-   <li class="stewbits">2 Bay leaves</li>
+  <ul class="stewbits">
+   <li>4 large carrots, peeled and roughly chopped</li>
+   <li>3 large potatoes, peeled and cut into medium chunks</li>
+   <li>2 leeks, roughly sliced</li>
+   <li>
+     <div class="tooltip">900g stewing beef<span class="tooltiptext">2 lbs</span></div>
+     , cut into large chunks <em>(leave out if vegetarian/vegan)</em>
+   </li>
+   <li>1 large onion, roughly chopped</li>
+   <li>2 garlic cloves, minced</li>
+   <li>3 tbsp Vegetable oil</li>
+   <li>3 tsps Dried mixed herbs</li>
+   <li>4 stock cubes, dissolved in 1 litre of water <em>(use 1.5 litre if adding dumplings)</em></li>
+   <li>Pinch of salt</li>
+   <li>2 Bay leaves</li>
    </ul>
  <h3 id="dumplings">For the Dumplings</h3>
  <ul>

@@ -55,6 +55,12 @@ h2#ingredients{
 .dumplingbits{
   margin-left: 300px;
 }
+.tooltip{
+  position: relative;
+  
+}
+
+
 
 #myBtn {
   display: none;
