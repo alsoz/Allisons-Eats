@@ -19,7 +19,6 @@ body{
   background-attachment: fixed;
 }
 p#open_statement{
-  margin: 0 80px 0 80px;
   text-align: center;
 }
 img{
@@ -160,4 +159,21 @@ div.gen_section{
 .overlay {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav.social {
+    display: none;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
 }

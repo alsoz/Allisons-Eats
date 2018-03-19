@@ -1,11 +1,10 @@
 
-// Some old code
-//$('.dropdown-toggle').on('show.bs.dropdown',function () {
-//
-//});
-//$('.navbar-toggle').on('show.bs.collapse', function () {
-//
-//});
+$('.dropdown-toggle').on('show.bs.dropdown',function () {
+
+});
+$('.navbar-toggle').on('show.bs.collapse', function () {
+
+});
 
 //from W3Schools
 window.onscroll = function() {scrollFunction()};
