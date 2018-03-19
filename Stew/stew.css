@@ -16,7 +16,7 @@ font-size: 20px;
 p{
   padding: 10px;
 }
-img {
+.image img {
   border: 5px solid black;
   border-radius: 10px;
 }
@@ -55,12 +55,82 @@ h2#ingredients{
 .dumplingbits{
   margin-left: 300px;
 }
-.tooltip{
-  position: relative;
-  
+
+/* Social media buttons */
+.social a {
+  color: #fff;
+  text-decoration: none;
 }
-
-
+.social .me {
+  width: 100px;
+  margin: 50px auto;
+}
+.social {
+  position: fixed;
+  top: 100px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-250px, 0);
+  -moz-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  -o-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 315px;
+  text-align: right;
+  padding: 5px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(100px, 0);
+  -moz-transform: translate(100px, 0);
+  -ms-transform: translate(100px, 0);
+  -o-transform: translate(100px, 0);
+  transform: translate(100px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover img {
+  color: #fff;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li img {
+  margin-left: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 
 #myBtn {
   display: none;
@@ -80,3 +150,28 @@ h2#ingredients{
 
 #myBtn:hover {
   background-color: #D3D3D3;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+  body {
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+  }
+}

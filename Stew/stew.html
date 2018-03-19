@@ -2,31 +2,6 @@
 <html>
 <head>
  <title>stew</title>
- <style>
- .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-</style>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -36,10 +11,6 @@
  <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <script
- src="https://code.jquery-3.3.1.js"
- integrity="sha256-2Kok7Mb0yxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
- crossorigin="anonymous"></script>
  <script src="stew.js"></script> <!--this is needed for the top button-->
 </head>
 <body>
@@ -93,7 +64,9 @@
    dietary requirements. E.g. It is easily vegan but not adding meat, or gluten-
    free by leaving out the dumplings. By prepping the majority beforehand,
    this is an easy recipe with very little technical skill needed.</p>
+   <div class="image">
    <img src="./classic-beef-stew-with-dumplings.jpg" alt='picture of beef stew' style="float:right;width:600px;height:500px;">
+  </div>
 <div>
  <ul class="cooking_info" style="float:right;">
    <li><strong>Serves</strong> 4</li>
@@ -102,21 +75,18 @@
  </ul>
  <h2 id="ingredients">Ingredients</h2>
   <h3 id="stew">For the Stew</h3>
-  <ul class="stewbits">
-   <li>4 large carrots, peeled and roughly chopped</li>
-   <li>3 large potatoes, peeled and cut into medium chunks</li>
-   <li>2 leeks, roughly sliced</li>
-   <li>
-     <div class="tooltip">900g stewing beef<span class="tooltiptext">2 lbs</span></div>
-     , cut into large chunks <em>(leave out if vegetarian/vegan)</em>
-   </li>
-   <li>1 large onion, roughly chopped</li>
-   <li>2 garlic cloves, minced</li>
-   <li>3 tbsp Vegetable oil</li>
-   <li>3 tsps Dried mixed herbs</li>
-   <li>4 stock cubes, dissolved in 1 litre of water <em>(use 1.5 litre if adding dumplings)</em></li>
-   <li>Pinch of salt</li>
-   <li>2 Bay leaves</li>
+  <ul>
+   <li class="stewbits">4 large carrots, peeled and roughly chopped</li>
+   <li class="stewbits">3 large potatoes, peeled and cut into medium chunks</li>
+   <li class="stewbits">2 leeks, roughly sliced</li>
+   <li class="stewbits">900g stewing beef, cut into large chunks <em>(leave out if vegetarian/vegan)</em></li>
+   <li class="stewbits">1 large onion, roughly chopped</li>
+   <li class="stewbits">2 garlic cloves, minced</li>
+   <li class="stewbits">3 tbsp Vegetable oil</li>
+   <li class="stewbits">3 tsps Dried mixed herbs</li>
+   <li class="stewbits">4 stock cubes, dissolved in 1 litre of water <em>(use 1.5 litre if adding dumplings)</em></li>
+   <li class="stewbits">Pinch of salt</li>
+   <li class="stewbits">2 Bay leaves</li>
    </ul>
  <h3 id="dumplings">For the Dumplings</h3>
  <ul>
@@ -145,6 +115,17 @@
   <li>Mix all the dry ingredients together and add the water, bit by bit
   until dough is pliable, then divide into 8 equal sized balls</li>
  </ol>
+
+ <nav class="social">
+   <ul>
+       <li><a href="https://twitter.com/share?url=https://twitter.com/" target="_blank">Twitter <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter"></a></li>
+       <li><a href="http://www.facebook.com/sharer.php?u=https://www.facebook.com/" target="_blank">Facebook <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook"></a></li>
+       <li><a href="javascript:;" onclick="window.print()">Print <img src="https://simplesharebuttons.com/images/somacro/print.png" alt="Print" /></a></li>
+       <li><a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+         Pinterest <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" /></a></li>
+   </ul>
+ </nav>
+
 <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-arrow-up"></span></button>
 </body>
 </html>

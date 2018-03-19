@@ -18,7 +18,7 @@ h1{
   font-size: 45px;
   padding: 15px 15px 0px 15px;
 }
-img{
+#header img{
   border-radius: 10%;
   max-width: 100%;
   border: 2px solid black;
@@ -44,7 +44,7 @@ h3{
 }
 
 .col-md-6,.col-xs-12{
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Social media buttons */
@@ -53,8 +53,8 @@ h3{
   text-decoration: none;
 }
 .social .me {
-  width: 400px;
-  margin: 90px auto;
+  width: 100px;
+  margin: 50px auto;
 }
 .social {
   position: fixed;
@@ -72,9 +72,9 @@ h3{
   display: block;
   margin: 5px;
   background: rgba(0, 0, 0, 0.36);
-  width: 310px;
+  width: 315px;
   text-align: right;
-  padding: 15px;
+  padding: 5px;
   -webkit-border-radius: 0 30px 30px 0;
   -moz-border-radius: 0 30px 30px 0;
   border-radius: 0 30px 30px 0;
@@ -95,9 +95,8 @@ h3{
 .social ul li:hover a {
   color: #000;
 }
-.social ul li:hover i {
+.social ul li:hover img {
   color: #fff;
-  background: red;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
@@ -109,18 +108,14 @@ h3{
   -o-transition: all 1s;
   transition: all 1s;
 }
-.social ul li i {
-  margin-left: 20px;
-  color: #000;
-  background: white;
-  padding: 10px;
+.social ul li img {
+  margin-left: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   font-size: 20px;
-  background: #ffffff;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -146,3 +141,21 @@ h3{
 
 #myBtn:hover {
   background-color: #D3D3D3;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  nav.social {
+    display: none;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
