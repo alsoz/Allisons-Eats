@@ -29,6 +29,11 @@ h1{
   font-size: 30px;
 }
 
+.allison_img img{
+  width: 30%;
+  padding: 5px;
+}
+
 /* Social media buttons */
 .social a {
   color: #fff;
