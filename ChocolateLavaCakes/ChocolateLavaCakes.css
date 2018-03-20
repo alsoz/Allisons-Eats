@@ -157,4 +157,8 @@ h3{
     font-size: 1.5rem;
     width: 100%;
   }
+  body {
+    background-color: rgba(204, 191, 178, 0.5);
+    background-image: none;
+  }
 }

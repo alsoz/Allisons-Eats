@@ -157,6 +157,10 @@ h3{
 
   }
   h4 {
-    
+
+  }
+  body {
+    background-color: rgba(204, 191, 178, 0.5);
+    background-image: none;
   }
 }

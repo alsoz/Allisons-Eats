@@ -185,4 +185,8 @@ header img{
   p {
     font-size: 1.5rem;
   }
+  body {
+    background-color: rgba(204, 191, 178, 0.5);
+    background-image: none;
+  }
 }
