@@ -170,4 +170,7 @@ div.gen_section{
     font-size: 1.5rem;
     width: 100%;
   }
+  body {
+    background-color: (204, 191, 178, 0.5);
+  }
 }
